@@ -16,5 +16,5 @@ with open("popular-names.txt", "r") as popular_name:
     print(lines)
 
 # Unix
-# $sort -n -r -k 3 popular-names.txt
+# $ sort -n -r -k 3 popular-names.txt
 # -n 整数順に並べる　-r 降順に並べる　-k 3　第三列目で

@@ -26,4 +26,4 @@ with open("popular-names.txt", "r") as popular_name:
         # 最後にファイルを閉じる
 
 # Unix
-# $split -n 5 -d popular-names.txt
+# $ split -n 5 -d popular-names.txt

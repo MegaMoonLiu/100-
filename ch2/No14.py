@@ -8,4 +8,4 @@ with open("popular-names.txt", "r") as popular_name:
         print(text[n])
 
 # Unix
-# $head -n 5 popular-names.txt
+# $ head -n 5 popular-names.txt

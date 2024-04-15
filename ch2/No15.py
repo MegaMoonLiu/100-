@@ -10,4 +10,4 @@ with open("popular-names.txt", "r") as popular_name:
         print(text[count - n])
 
 # Unix
-# $tail -n 5 popular-names.txt
+# $ tail -n 5 popular-names.txt

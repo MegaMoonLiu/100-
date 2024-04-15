@@ -16,5 +16,5 @@ with open("popular-names.txt", "r") as popular_name:
     print(unique_strings)
 
 # Unix
-# $cut -f 1 -d " " popular-names.txt|sort|uniq
+# $ cut -f 1 -d " " popular-names.txt|sort|uniq
 #        ctrl + v + tab

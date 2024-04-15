@@ -20,6 +20,6 @@ with open("popular-names.txt", "r") as popular_name, open(
         # write()関数でファイルに書き込む
 
 # Unix
-# $cut -f 1 -d " " popular-names.txt
+# $ cut -f 1 -d " " popular-names.txt
 #          ctrl + v + tab
-# $cut -f 2 -d " " popular-name.txt
+# $ cut -f 2 -d " " popular-name.txt
