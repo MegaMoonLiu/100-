@@ -1,7 +1,7 @@
-with open("popular-names.txt" , "r") as popular_name:
-#   withステートメントを使用してファイルを開き
+with open("popular-names.txt", "r") as popular_name:
+    #   withステートメントを使用してファイルを開き
     for lines in popular_name:
-        print(lines.replace("\t" , " "))
+        print(lines.replace("\t", " "))
 
         # forでタブ1文字につきスペース1文字に置換します
 

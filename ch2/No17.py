@@ -1,5 +1,5 @@
-with open("popular-names.txt" , "r") as popular_name:
-#   withステートメントを使用してファイルを開き
+with open("popular-names.txt", "r") as popular_name:
+    #   withステートメントを使用してファイルを開き
     lines = popular_name.readlines()
     count = len(lines)
     #   readlines()関数でファイルの行を読み取り、行数を取得しています
@@ -9,10 +9,12 @@ with open("popular-names.txt" , "r") as popular_name:
 
     for i in range(count):
         line = lines[i]
-        columns = line.split('\t')[0]  
+        columns = line.split("\t")[0]
         unique_strings.add(columns)
-        #　第i個目の第一列をsetに書き込む
-        
+        # 　第i個目の第一列目をsetに書き込む
+
     print(unique_strings)
 
-
+# Unix
+# $cut -f 1 -d " " popular-names.txt|sort|uniq
+#        ctrl + v + tab

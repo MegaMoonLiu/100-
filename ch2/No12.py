@@ -1,5 +1,7 @@
-with open("popular-names.txt","r") as popular_name, open("col1.txt", "w") as col_1, open ("col2.txt", "w") as col_2:
-#   withステートメントを使用してファイルを開き
+with open("popular-names.txt", "r") as popular_name, open(
+    "col1.txt", "w"
+) as col_1, open("col2.txt", "w") as col_2:
+    #   withステートメントを使用してファイルを開き
     text = popular_name.readlines()
     # readlines()関数でファイルの行を読み取り
     # print(text)
@@ -7,7 +9,7 @@ with open("popular-names.txt","r") as popular_name, open("col1.txt", "w") as col
     # count = len(text)
     # print(count)
 
-    for i,lines in enumerate(text):
+    for i, lines in enumerate(text):
         # enumerate()関数でインデックス番号, 要素の順に取得して
         # print(i,lines)
         name, sex, number, year = lines.split("\t")
