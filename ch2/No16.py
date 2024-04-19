@@ -8,7 +8,7 @@ with open("popular-names.txt", "r") as popular_name:
     # readlines()関数でファイルの行を読み取り
 
     # print(len(text))
-    text_count = len(text)
+    # text_count = len(text)
 
     div_list = np.array_split(text, count)
     # numpy.split(): 等分割、または、任意の位置で分割
