@@ -8,4 +8,4 @@ print(line_count)
 
 
 #   Unix
-#   wc -l "popular-names.txt"
+#   $ wc -l "popular-names.txt"
