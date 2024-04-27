@@ -69,6 +69,8 @@ with open("ch4/alice.txt", "r") as alice:
     # stemming
 
     pos_tags = pos_tag(words_stem)
+    # key : words
+    # value : tag
     # print(pos_tags)
 
     alice_words_text = open("ch4/alice_words_tags.txt", "w")
