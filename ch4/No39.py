@@ -17,7 +17,7 @@ plt.xlabel("出現頻度順位")
 plt.ylabel("出現頻度")
 
 ax = plt.gca()
-# 現在の軸を取得する
+# 現在の軸(じく)を取得する
 ax.set_yscale("log")
 ax.set_xscale("log")
 # 数値をlogする
