@@ -35,11 +35,11 @@ print(result[0:50])
 # NN     noun, singular 'desk' 名词单数形式
 # NNS    nounplural  'desks'  名词复数形式
 # NNP    propernoun, singular     'Harrison' 专有名词
-# NNPS  proper noun, plural 'Americans'  专有名词复数形式
+# NNPS   proper noun, plural 'Americans'  专有名词复数形式
 # PDT    predeterminer      'all the kids'  前位限定词
 # POS    possessiveending  parent's   属有词  结束语
 # PRP    personalpronoun   I, he, she  人称代词
-# PRP$  possessive pronoun my, his, hers  物主代词
+# PRP$   possessive pronoun my, his, hers  物主代词
 # RB     adverb very, silently, 副词    非常  静静地
 # RBR    adverb,comparative better   （形容词或副词的）比较级形式
 # RBS    adverb,superlative best    （形容词或副词的）最高级
