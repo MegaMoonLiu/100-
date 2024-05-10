@@ -73,5 +73,5 @@ with open("ch4/alice.txt", "r") as alice:
     # value : tag
     # print(pos_tags)
 
-    alice_words_text = open("ch4/alice_words_tags.txt", "w")
-    alice_words_text.write(str(pos_tags))
+    # alice_words_text = open("ch4/alice_words_tags.txt", "w")
+    # alice_words_text.write(str(pos_tags))
