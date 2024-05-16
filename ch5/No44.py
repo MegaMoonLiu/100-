@@ -70,6 +70,6 @@ for lines in kakari_list:
         graph.edge(text[0], text[1])
         # グラフを描く
 
-    graph.save("100--main/ch5/output{}".format(str(i).zfill(3)) + ".gv")
+    graph.save("100--main/ch5/output/output{}".format(str(i).zfill(3)) + ".gv")
     i += 1
 # 描いたグラフを保存する
